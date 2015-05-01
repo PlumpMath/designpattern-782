@@ -1,13 +1,13 @@
 package designpattern.pattern.strategy;
 
-/**
- * 策略模式，策略类
- * @author zhaoliang
- *
- */
-public interface Travel {
-	/**
-	 * 旅行方式
-	 */
-	void drive();
+public class Travel {
+	private Drive drive;
+
+	public Travel(Drive drive) {
+		this.drive = drive;
+	}
+	
+	public void drive(){
+		drive.drive();
+	}
 }
