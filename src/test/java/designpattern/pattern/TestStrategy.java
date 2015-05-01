@@ -1,5 +1,7 @@
 package designpattern.pattern;
-
+/**
+ * 策略模式测试类
+ */
 import org.junit.Test;
 
 import designpattern.pattern.strategy.Car;
